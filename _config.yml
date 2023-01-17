@@ -5,11 +5,9 @@ description: > # this means to ignore newlines until "baseurl:"
 # Build settings
 theme: minima
 
-minma:
+minima:
   skin: dark
-  show_excerpts: true
-  social_links:
-    - { platform: github,  user_url: "https://github.com/deric4" }
+
 plugins:
   - jekyll-feed
 
