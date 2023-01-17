@@ -6,7 +6,12 @@ description: > # this means to ignore newlines until "baseurl:"
 remote_theme: jekyll/minima
 
 minima:
-  skin: dark
+  skin: auto
+  social_links:
+    - { platform: github,         user_url: "https://github.com/deric4" }
+    - { platform: stackoverflow,  user_url: "https://stackoverflow.com/users/4526019/deric4" }
+
+
 
 plugins:
   - jekyll-feed
